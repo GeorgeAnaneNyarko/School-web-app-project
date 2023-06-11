@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: white;
+    font-family: "Verdana", Tahoma, sans-serif;
+  }
+  
+  
+  .navbar-links {
+    
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-links li {
+    padding: 10px;
+    font-size: medium;
+  }
+  
+  .navbar-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-size: large;
+  }
+  
+  .navbar-links li a:hover {
+    color: #f80400;
+  }
+  
